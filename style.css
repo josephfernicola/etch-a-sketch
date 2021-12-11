@@ -1,0 +1,36 @@
+.squares {
+    border-style: solid;
+    border-color: black;
+}
+#container {
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    height: 600px;
+    width: 600px;
+    margin-top: 40px;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+}
+
+#flex {
+    display: flex;
+    justify-content: center;
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+}
+
+#wrongNumber {
+    text-align: center;
+    margin-top: 40px;
+}
